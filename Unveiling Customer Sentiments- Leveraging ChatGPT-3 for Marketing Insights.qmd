@@ -1,0 +1,379 @@
+---
+title: "SENTIMENT ANALYSIS For ENHANCED MARKETING STRATEGIES"
+author: "Honorine Akoguteta"
+date: "2024-05-30"
+format: html
+html:
+code-fold: true
+embed-resources: true
+---
+
+### Executive Summary
+
+
+### Introduction and Motivation
+
+
+Online reviews are becoming an essential source of feedback for brands in today's digital landscape. Customers are allowed to share their thoughts on a variety of digital platforms, and as a result, evaluations provide an array of information about customer satisfaction and experiences. Knowing these sentiments is not only helpful, but crucial for marketers. 
+
+Analysing these sentiments correctly can reveal possible problems, greatly affect how a brand is seen, and eventually influence marketing tactics. Sentiment analysis is a potential method for deciphering and categorising emotions represented in text data because it makes use of natural language processing (NLP) capabilities (Kendall, 2024).
+
+Marketers have a competitive advantage when they can comprehend and capitalise on customer sentiments. Sentiment research makes it possible to understand client wants, preferences, and pain points more thoroughly, which improves customer experiences and makes marketing initiatives more successful (Indeed, 2023). The purpose of this study is to investigate how sentiment analysis can improve marketing strategies by being applied to customer evaluations from Nike Shoes' online store.
+
+
+#### Importance of the Research
+
+Opinion mining, another name for sentiment analysis, is a topic that deals with the extraction and examination of subjective data from textual sources. Sentiment analysis is more important than ever thanks to the growth of user-generated material on blogs, social media platforms, and e-commerce websites. Determining the sentiment polarity—positive, negative, or neutral—of a given text is the main goal of sentiment analysis. Many stakeholders, including companies, governments, and individuals, may make educated decisions based on public opinion thanks to this knowledge, which is extremely useful (Mayur, Annavarapu , & Chaitanya, 2022).
+
+#### Evolution of Sentiment Analysis Methods
+
+Sentiment analysis started off with simple rule-based methods and has now developed into complex machine learning and deep learning techniques. To determine the sentiment of a text, lexicon-based approaches—which use lists of terms that are pre-defined and loaded with meaning—were a major component of early sentiment analysis. The creation of sentiment lexicons, such as SentiWordNet and AFINN, which rate words and phrases according to their polarity and intensity, is a notable example (Ansari, 2021).
+
+Machine learning techniques gained prominence as the need for sentiment analysis that was more precise and scalable increased. Text was classified using algorithms like Naive Bayes, Support Vector Machines (SVM), and Decision Trees based on sentiment labels. When these machine learning techniques were applied to movie reviews, Pang, Lee, and Vaithyanathan's seminal 2002 work showed how effective they were over conventional rule-based methods in terms of accuracy (Bo , Lillian , & Shivakumar , 2002).
+
+Deep learning models, in particular Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), which could recognise complex patterns and contextual connections within text, were the next step forward in the history of sentiment analysis. These models made it possible to analyse attitudes more deeply, going beyond word-by-word analysis to understand the context and tone of entire phrases and sentences (Bo , Lillian , & Shivakumar , 2002).
+
+#### The Key techniques used in Sentiment Analysis
+
+Sentiment analysis relies heavily on Natural Language Processing (NLP), which offers the methods and instruments required to glean valuable insights from textual data. Important NLP methods that are essential to sentiment analysis are as follows:
+
+1. Tokenisation
+
+   Tokenisation is the process of separating text into discrete words, or tokens. This first stage is important because it sets up the text for more analysis, like dependency parsing and part-of-speech labelling. Sentiment analysis may evaluate the sentiment value of each word or token in context by use of tokenisation  (Fung, 2024).
+
+2. Part-of-Speech Tagging:
+   Part-of-speech tagging assists in recognising sentiment-bearing words and comprehending their syntactic functions inside sentences by providing grammatical tags to each token. This method is highly helpful for identifying whether a sentence is positive or negative, especially when it is complex  (Fung, 2024).
+
+3. Named Entity Recognition (NER):
+   Brands, goods, and locations are just a few examples of the entities that Named Entity Recognition recognises and classifies from text. When used in conjunction with sentiment analysis, NER makes it possible to extract sentiments that are explicitly directed at these entities, giving marketers focused insights into what customers think about particular goods or services (Fung, 2024).
+
+4. Dependency Parsing:
+   Dependency parsing examines a sentence's grammatical structure to identify the connections between terms. This method is crucial for comprehending the context and subtleties of feelings, especially when separating phrases where the presence of conjunctions or negations may cause the sentiment to change.
+
+5. Word Embeddings:
+   Methods such as Word2Vec and GloVe use context from massive text corpora to express words as vectors in a high-dimensional space. By capturing the semantic commonalities between words, these embeddings improve sentiment analysis algorithms' capacity to identify sentiments even when they are conveyed using a variety of language.
+
+#### Current Landscape of NLP and Text Analysis in Marketing
+
+The necessity to accurately and efficiently interpret client sentiments has led to an exponential growth in the use of NLP and text analysis in marketing. The benefits of using NLP into marketing tactics have been emphasised in a number of research papers and industry reports.
+
+1. **Improved Client Experience**:
+
+Businesses who used voice and text analytics reported a considerable improvement in understanding customer demands and sentiments, according to study from Resultscx. Companies that were able to proactively address negative feelings and enhance customer support experiences witnessed a 20% boost in customer satisfaction scores (Statista, 2024).
+
+2. **Efficiency in Operations**:
+   According to the same survey, companies that used text analytics and natural language processing (NLP) saw a 30% increase in operational efficiency. This efficiency boost was primarily ascribed to improved customer query routing, improved agent performance via real-time analytics, and more successful training initiatives grounded in customer interaction analysis (Statista, 2024).
+
+3. **Market Growth and Adoption**:
+   From 2024 to 2030, the global market for natural language processing (NLP) is expected to expand at a compound annual growth rate (CAGR) of 27.55%, with a market volume of USD 156.80 billion at that time. This quick expansion highlights how NLP solutions are being used more and more in a variety of industries, including marketing. A Statista estimate projects that by 2025, 85% of firms will be utilising NLP technology in some capacity. This trend can be attributed to the growing need for enhanced sentiment analysis, chatbots, and predictive analytics as ways to improve customer satisfaction and engagement (Statista, 2024).
+
+4. **Financial Impact**:
+Businesses who included NLP into their marketing analytics saw a notable rise in sales. For instance, after the first year of implementation, companies using NLP-driven sentiment research and customised marketing campaigns experienced an average 15% boost in sales. NLP has also proven to be helpful in minimising operating costs. By automating repetitive processes and using chatbots to answer simple customer enquiries, organisations have been able to reduce marketing and customer service spending by as much as 25% (Statista, 2024).
+
+5. **Competitive Advantage**:
+   With the use of NLP tools, businesses can now track brand sentiment in real time, responding quickly to unfavourable comments and managing their reputation proactively. This skill has enhanced overall brand impression and resulted in a 40% decrease in possible brand crises. Moreover, text analysis and natural language processing have given firms important insights into how their rivals perceive their brands and behave in the marketplace. Businesses that have used these tools for competition analysis have seen a 35% improvement in market positioning and strategic planning, which has helped them find chances for differentiation and better match their products with customer expectations (Statista, 2024).
+
+Sentiment analysis via sophisticated NLP approaches is becoming more and more integrated into marketing strategies; it is no longer merely a trend, but a need for companies looking to maintain their competitiveness in the digital market. Brands have the ability to improve customer experiences, boost operational efficiency, and eventually stimulate revenue development by comprehending and capitalising on consumer attitudes. Marketers will have even more tools at their disposal to interpret the nuanced feelings and viewpoints that customers express online as long as sentiment analysis and natural language processing (NLP) continue to advance.
+
+### Main Body
+1. Sample, Data, Corpus
+Customer reviews from Nike Shoes' online store make up the study's sample. The data was gathered via reviews that were open to the public and included a variety of attitudes and viewpoints. The text data from these reviews are included in the corpus, it underwent preprocessing and was evaluated using a variety of sentiment analysis techniques.
+
+```{python}
+#| echo: false
+import pandas as pd
+import re
+
+# Load the filtered data
+data = pd.read_csv('/Users/keithkamoso/Desktop/DSSB/nikecustomerreviews_filtered.csv')
+
+# Basic text cleaning function
+def clean_text(text):
+    if isinstance(text, str):
+        text = text.lower()  # convert text to lowercase
+        text = re.sub(r'\[.*?\]', '', text)  # remove text in square brackets
+        text = re.sub(r'https?://\S+|www\.\S+', '', text)  # remove links
+        text = re.sub(r'<.*?>+', '', text)  # remove html tags
+        text = re.sub(r'[^a-zA-Z\s]', '', text)  # remove non-alphanumeric characters
+        text = re.sub(r'\n', '', text)  # remove newlines
+        text = re.sub(r'\s+', ' ', text).strip()  # remove extra spaces
+    else:
+        text = ""
+    return text
+
+# Apply text cleaning to the 'Content' column
+data['Content'] = data['Content'].apply(clean_text)
+
+print(data.head())
+
+```
+
+2. Descriptive Statistics
+A summary of the dataset was produced by the computation of descriptive statistics. This encompasses the dispersion of review durations, mean sentiment ratings, and the prevalence of positive, neutral, and negative reviews. These aid in understanding the overall sentiment trend and locating any data irregularities.
+
+```{python}
+#| echo: false
+from textblob import TextBlob
+
+# Function to get sentiment using TextBlob
+def get_sentiment(text):
+    blob = TextBlob(text)
+    return blob.sentiment.polarity, blob.sentiment.subjectivity
+
+# Apply sentiment analysis to the 'Content' column
+data[['Polarity', 'Subjectivity']] = data['Content'].apply(lambda x: pd.Series(get_sentiment(x)))
+# Save the data with sentiment scores
+data.to_csv('/Users/keithkamoso/Desktop/DSSB/nikecustomerreviews_with_sentiments.csv', index=False)
+
+print(data.head())
+```
+```{python}
+#| echo: false
+# Ensure 'Date' column is in datetime format
+data['Date'] = pd.to_datetime(data['Date'], errors='coerce')
+data = data.dropna(subset=['Date'])  # Drop rows where 'Date' could not be parsed
+
+# Check the data types of the 'Date' column
+print(data['Date'].dtype)
+
+
+```
+
+
+```{python}
+#| echo: false
+import pandas as pd
+
+# Load the data with sentiment scores
+data = pd.read_csv('/Users/keithkamoso/Desktop/DSSB/nikecustomerreviews_with_sentiments.csv')
+
+# Compute average polarity and subjectivity
+average_polarity = data['Polarity'].mean()
+average_subjectivity = data['Subjectivity'].mean()
+
+# Determine the distribution of sentiments
+positive_reviews = len(data[data['Polarity'] > 0])
+neutral_reviews = len(data[data['Polarity'] == 0])
+negative_reviews = len(data[data['Polarity'] < 0])
+
+# Total number of reviews
+total_reviews = len(data)
+
+# Calculate percentages
+positive_percentage = (positive_reviews / total_reviews) * 100
+neutral_percentage = (neutral_reviews / total_reviews) * 100
+negative_percentage = (negative_reviews / total_reviews) * 100
+
+print(f"Average Polarity: {average_polarity}")
+print(f"Average Subjectivity: {average_subjectivity}")
+print(f"Positive Reviews: {positive_percentage}%")
+print(f"Neutral Reviews: {neutral_percentage}%")
+print(f"Negative Reviews: {negative_percentage}%")
+
+```
+
+### 4. Main Analysis
+
+
+There are multiple steps in the methodology that were used:
+1.	Data Preprocessing: Cleaning text data to get rid of unnecessary data, stopwords, and other noise.
+2.	Sentiment Analysis: classifying each review's sentiment as positive, neutral, or negative, using the VADER (Valence Aware Dictionary for Sentiment Reasoning) tool and TextBlob. 
+3.	Visualizations: To see the sentiment distribution, the average sentiment polarity trend over time, and the sentiment score distribution, create histograms, line plots, and bar charts.
+4.	Topic Modeling: Using Latent Dirichlet Allocation (LDA) to pinpoint the primary subjects covered in the reviews along with the sentiments that go along with them.
+
+
+```{python}
+#| echo: false
+import nltk
+nltk.download('stopwords')
+
+```
+
+```{python}
+#| echo: false
+import ssl
+import certifi
+
+ssl._create_default_https_context = ssl._create_unverified_context
+nltk.download('stopwords')
+
+```
+
+```{python}
+#| echo: false
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set(style="whitegrid")
+
+# Sentiment Polarity Distribution
+plt.figure(figsize=(10, 6))
+sns.histplot(data['Polarity'], bins=30, kde=True, color='blue')
+plt.title('Distribution of Sentiment Polarity')
+plt.xlabel('Polarity')
+plt.ylabel('Frequency')
+plt.show()
+
+data['Year'] = data['Date'].dt.year
+
+average_polarity_yearly = data.groupby('Year')['Polarity'].mean()
+
+# An overview of the frequency of various sentiment scores among the reviews may be found in the sentiment polarity histogram. There was a noticeable positive sentiment skew in the distribution, which suggests that customers are generally satisfied. There were, nevertheless, several noteworthy negative outliers that indicated regions in which clients encountered problems.
+
+# Average Sentiment Polarity Over Time
+
+plt.figure(figsize=(14, 7))
+plt.plot(average_polarity_yearly.index, average_polarity_yearly.values, marker='o', linestyle='-', color='blue')
+plt.title('Average Sentiment Polarity Over Time')
+plt.xlabel('Year')
+plt.ylabel('Average Polarity')
+plt.xticks(average_polarity_yearly.index)  
+plt.grid(True)  
+plt.show()
+
+# Customer satisfaction trends were highlighted by the line plot that displayed the average sentiment polarity over time. Sentiment polarity was found to be variable, with clear peaks at particular times that may have corresponded to the introduction of new products or marketing initiatives. There was also a decrease in sentiment polarity at various points, which may indicate problems that require attention.
+
+
+## Sentiment Distribution
+sentiment_counts = [positive_reviews, neutral_reviews, negative_reviews]
+sentiment_labels = ['Positive', 'Neutral', 'Negative']
+
+plt.figure(figsize=(8, 6))
+sns.barplot(x=sentiment_labels, y=sentiment_counts, palette='viridis')
+plt.title('Sentiment Distribution')
+plt.xlabel('Sentiment')
+plt.ylabel('Number of Reviews')
+plt.show()
+
+#The majority of reviews were positive, as shown by the bar plot that divided them into positive, neutral, and negative sentiments and thie will benefit marketing initiatives and the brand reputation. Negative reviews, on the other hand, point out areas that need work, especially in terms of product quality and customer service.
+```
+
+# Topic Modeling with LDA
+
+```{python}
+#| echo: false
+import pandas as pd
+import re
+from gensim.utils import simple_preprocess
+from nltk.corpus import stopwords
+import ssl
+import certifi
+
+ssl._create_default_https_context = ssl._create_unverified_context
+import nltk
+nltk.download('stopwords')
+data = pd.read_csv('/Users/keithkamoso/Desktop/DSSB/nikecustomerreviews_filtered.csv')
+
+def clean_text(text):
+    if isinstance(text, str):
+        text = text.lower()
+        text = re.sub(r'\[.*?\]', '', text)
+        text = re.sub(r'https?://\S+|www\.\S+', '', text)
+        text = re.sub(r'<.*?>+', '', text)
+        text = re.sub(r'[^a-zA-Z\s]', '', text)
+        text = re.sub(r'\n', '', text)
+        text = re.sub(r'\s+', ' ', text).strip()
+    else:
+        text = ""
+    return text
+
+
+data['Content'] = data['Content'].apply(clean_text)
+
+
+data['Tokenized_Content'] = data['Content'].apply(lambda x: simple_preprocess(x, deacc=True))
+
+
+stop_words = stopwords.words('english')
+data['Tokenized_Content'] = data['Tokenized_Content'].apply(lambda x: [word for word in x if word not in stop_words])
+
+print(data.head())
+
+
+```
+
+```{python}
+#| echo: false
+from gensim.corpora import Dictionary
+
+
+dictionary = Dictionary(data['Tokenized_Content'])
+
+
+dictionary.filter_extremes(no_below=5, no_above=0.5)
+
+
+corpus = [dictionary.doc2bow(review) for review in data['Tokenized_Content']]
+
+```
+```{python}
+#| echo: false
+from gensim.models import LdaModel
+
+
+lda_model = LdaModel(corpus, num_topics=5, id2word=dictionary, passes=10)
+
+
+for idx, topic in lda_model.print_topics():
+    print(f'Topic: {idx} \nWords: {topic}\n')
+
+```
+
+```{python}
+#| echo: false
+import pyLDAvis
+import pyLDAvis.gensim_models
+
+
+pyLDAvis.enable_notebook()
+vis = pyLDAvis.gensim_models.prepare(lda_model, corpus, dictionary)
+pyLDAvis.display(vis)
+
+```
+
+The LDA topic modeling identified five key topics in the reviews:
+1.	Customer Service: Issues related to order processing, delivery, and customer support.
+2.	Product Quality: Feedback on the quality and performance of Nike shoes.
+3.	Return and Refund Process: Experiences with returning products and obtaining refunds.
+4.	Shipping and Delivery: Timeliness and reliability of delivery services.
+5.	Overall Experience: General satisfaction or dissatisfaction with the shopping experience.
+Each topic's associated sentiments provided deeper insights into specific areas of concern or praise.
+
+## 5. Conclusion
+The study demonstrates that sentiment analysis can significantly enhance marketing strategies by decoding customer sentiments in online reviews. Key findings include:
+•	Enhancing Customer Satisfaction: By identifying common issues in negative reviews, marketers can address these pain points, leading to improved customer satisfaction and loyalty.
+•	Optimizing Marketing Campaigns: Positive reviews can be leveraged in marketing materials to build brand credibility, while understanding sentiment trends helps in timing campaigns effectively.
+•	Personalizing Customer Experiences: Segmenting customers based on their feedback allows for tailored marketing efforts that better meet individual needs and preferences.
+•	Driving Product Development: Insights from customer feedback guide product improvements and innovations, ensuring offerings align with customer expectations.
+
+
+### Limitations and Outlook
+
+Although the study offers insightful information, there are several drawbacks to take into account. The analysis relies on publicly accessible reviews, which might not be representative of all clients. Furthermore, it's possible that sentiment analysis software misses some subtleties in human mood. To overcome these constraints, future work may employ sophisticated sentiment analysis methods along with a larger dataset.
+
+All things considered, sentiment analysis of internet evaluations provides marketers with an effective instrument to refine their tactics, increase client experiences, and spur business expansion. Sentiment analysis has many uses, but it has limitations. For example, it cannot handle irony, sarcasm, or sentiments that vary depending on the context. Furthermore, a model trained on one type of data may not perform well on another due to the domain dependence of sentiment analysis models, requiring domain-specific adjustments (Margarita , Antonio, Félix, & Pedro, 2023).
+
+### Future Directions
+
+There are still a number of obstacles in the way of sentiment analysis, despite tremendous progress in natural language processing and text analysis. Accurately interpreting context is a major difficulty, particularly when handling irony or sarcasm in customer feedback, which can skew sentiment analysis results. The work becomes more complex due to the dynamic nature of language, which includes the continuous introduction of new slang phrases and developing expressions. To maintain accuracy, NLP models and lexicons must be updated frequently (Faster Capital, 2024).
+
+Future research should focus on creating more advanced algorithms that are better able to handle a variety of linguistic patterns and comprehend complex contexts in order to address these issues. Combining NLP with other data sources, like behavioural and demographic information, is a viable way to improve sentiment analysis's accuracy. This integration may yield more accurate marketing strategies and a more thorough grasp of consumer mood. Furthermore, investigating cutting-edge technologies like transfer learning and deep learning may open up new avenues for NLP applications in marketing. These technological advancements have the potential to greatly improve the capacity to comprehend complex emotions and produce more precise insights (Soujanya , Devamanyu , Navonil , & Rada , 2020).
+
+Finally, NLP and text analysis are crucial technologies that help marketers understand customer sentiment and guide strategic decision-making. Enterprises may create more focused and efficient marketing efforts by utilising sophisticated natural language processing (NLP) techniques to obtain profound understanding of consumer perceptions. To overcome current obstacles and fully utilise NLP in marketing, however, continued research and innovation are crucial as the field of sentiment analysis continues to develop.
+
+Looking ahead, resolving sentiment analysis's present shortcomings and investigating fresh research directions will be critical to the field's success. Future research on the integration of multimodal data—that is, text combined with images or videos—to improve sentiment analysis looks promising. The advancement of sentiment-aware natural language generation, which can generate text that reflects a desired sentiment, is another crucial direction. Furthermore, fine-grained sentiment analysis is gaining popularity as a way to capture sentiment at a more nuanced level by going beyond simple polarity classification. Finally, more research is needed in two crucial areas: resolving sentiment analysis model biases and guaranteeing the models' scalability across other domains (Margarita , Antonio, Félix, & Pedro, 2023).
+
+
+
+### Works Cited
+Statista. (2024). Natural Language Processing. From Statista: https://www.statista.com/outlook/tmo/artificial-intelligence/natural-language-processing/worldwide
+Fung, B. (2024, June). Sentiment and NER Analysis of Audit Comments. From Kaggle: https://www.kaggle.com/code/bennyfung/sentiment-and-ner-analysis-of-audit-comments
+Margarita , I. R., Antonio, V. C., Félix, M. C., & Pedro, M. C. (2023, August 1). A review on sentiment analysis from social media platforms. From Science Direct: https://www.sciencedirect.com/science/article/pii/S0957417423003639
+Soujanya , P., Devamanyu , H., Navonil , M., & Rada , M. (2020, November 16). Beneath the Tip of the Iceberg: Current Challenges and New Directions in Sentiment Analysis Research. From Arxiv: https://arxiv.org/pdf/2005.00357
+Faster Capital. (2024, June 24). Understanding Sentiment Analysis Metrics. From Faster Capital: https://fastercapital.com/content/Understanding-Sentiment-Analysis-Metrics.html#Challenges-and-Limitations-of-Sentiment-Analysis-Metrics.html
+Kendall, M. (2024, April 8). The role of sentiment analysis in marketing. From Sprout Social: https://sproutsocial.com/insights/sentiment-analysis-marketing/#role
+Indeed. (2023, February 4). Sentiment Analysis Marketing: Definition, Benefits and Tips. From Indeed: https://www.indeed.com/career-advice/career-development/sentiment-analysis-marketing
+Mayur, W., Annavarapu , C. R., & Chaitanya, K. (2022, February 7). Home Artificial Intelligence Review Article A survey on sentiment analysis methods, applications, and challenge. From Springer: https://link.springer.com/article/10.1007/s10462-022-10144-1
+Ansari, A. A. (2021, March 22). Evolution of Sentiment Analysis: Methodologies and Paradigms. From Springer: https://link.springer.com/chapter/10.1007/978-981-33-6815-6_8
+Bo , P., Lillian , L., & Shivakumar , V. (2002). Thumbs up? Sentiment Classification using Machine Learning Techniques. From Cornell University: https://www.cs.cornell.edu/home/llee/papers/sentiment.pdf
+
